@@ -30,3 +30,17 @@ import matplotlib.pyplot as plt
 # Sample Analysis Code
 churn_rate = df['Churn'].value_counts(normalize=True)
 sns.countplot(x='Contract', hue='Churn', data=df, palette=["#4c72b0", "#dd8452"])
+
+
+How to Use
+Clone repository:
+git clone https://github.com/ontu001/Telco-Customer-Churn-Analysis---EDA_Python.git
+
+Install requirements:
+
+bash
+pip install -r requirements.txt
+Run analysis:
+
+bash
+python churn_analysis.py
